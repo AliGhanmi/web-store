@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+header{
+    align-items: center;
+    background-color: black;
+}
+
+#title{
+    font-size: 100px;
+    color: white;
+    justify-content: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#logo{
+    width: 64px;
+    height: 64px;
+    margin-left: 10px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content:flex-end ;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.nav-links li {
+    padding: 10px;
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+}
+
+#card{
+    color: rgb(189, 172, 172);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cards_men{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.cards_women{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+
+.btn {
+    background: #14db81;
+    background-image: -webkit-linear-gradient(top, #14db81, #2bb8a5);
+    background-image: -moz-linear-gradient(top, #14db81, #2bb8a5);
+    background-image: -ms-linear-gradient(top, #14db81, #2bb8a5);
+    background-image: -o-linear-gradient(top, #14db81, #2bb8a5);
+    background-image: linear-gradient(to bottom, #14db81, #2bb8a5);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: #493cfc;
+    background-image: -webkit-linear-gradient(top, #493cfc, #345dd9);
+    background-image: -moz-linear-gradient(top, #493cfc, #345dd9);
+    background-image: -ms-linear-gradient(top, #493cfc, #345dd9);
+    background-image: -o-linear-gradient(top, #493cfc, #345dd9);
+    background-image: linear-gradient(to bottom, #493cfc, #345dd9);
+    text-decoration: none;
+  }
