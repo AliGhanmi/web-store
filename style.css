@@ -50,39 +50,26 @@ nav{
 #card{
     color: rgb(189, 172, 172);
 }
-main{
+#main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .cards_men{
-    width:24%;
-    float:left
-    /* display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
     justify-content: space-between;
-    margin: 10px; */
+    margin: 10px; 
 
 }
 
-.cards_women{
-    width:24%;
-    float:left;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    justify-content: space-between;
-    margin: 10px; */
-}
+
 
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
