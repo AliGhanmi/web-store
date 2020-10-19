@@ -55,3 +55,40 @@ function test(array,query){
         }
     }    
 }
+
+function totalPrice(array){
+    var total = 0;
+    for (var i =0; i<array.length; i++){
+        if(array[i].description){
+            total+array[i]
+        }
+    }
+    return total
+}
+$('#card').on('click', function(){
+    alert(finalPrice)
+})
+
+$('.btn').on('click', function(){
+    var finalPrice = 0
+    for ( var i = 0; i<array.length; i++){
+    finalPrice= finalPrice + item.description
+    }
+    return finalPrice
+})
+
+$(document).ready(function(){
+    var price=$(document).getElementByTagName('p');
+    var totalPrice=0;
+    $('.btn').click(function(){
+        for(var i=0;i<array.length;i++){
+        totalPrice+=price;
+    }
+      $(document).getElementByTagName('p').value=total;  
+    });
+
+
+
+});
+
+
