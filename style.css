@@ -46,10 +46,18 @@ nav{
     color: white;
     text-decoration: none;
 }
-
-#card{
-    color: rgb(189, 172, 172);
+#total{
+    color:white;
+    font-size: 30px;
 }
+span{
+    color: black;
+    font-size: 19px;
+}
+#Card{
+    color:white;
+}
+
 #main{
     display: flex;
     flex-wrap: wrap;
@@ -96,3 +104,4 @@ h3{
     background-image: linear-gradient(to bottom, #493cfc, #345dd9);
     text-decoration: none;
   }
+
